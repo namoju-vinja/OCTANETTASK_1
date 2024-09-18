@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #e65c00;
+}
+
+/* Destination Highlights */
+.destination-highlights {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.destination-highlights h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-box {
+    width: 30%;
+    text-align: center;
+}
+
+.image-box img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-box h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* About Section */
+.about {
+    background-color: #f8f8f8;
+    padding: 50px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #777;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
